@@ -233,6 +233,10 @@ class DataDictionary(object):
             all_refkeys = [k for k in obj.keys() if k.startswith(refkey)]
             for key in all_refkeys:
                 val = obj.pop(key)
+
+                if val in ["UUID", "uuid"]:
+                    continue
+
                 obj.update(self.resolve_reference(val, root))
             return {k: self.resolve_schema(v, root) for k, v in obj.items()}
         elif isinstance(obj, list):
