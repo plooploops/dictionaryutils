@@ -217,15 +217,24 @@ class DataDictionary(object):
         return resolution
 
     def resolve_local_refs(self, refs, obj, root):
-        """Converts a string ref to list of refs & resolves the references
+        """
+        Converts a string ref to list of refs & resolves the references
         """
         if not isinstance(refs, list):
             refs = [refs]
+
+        try:
+            refs.remove("uuid")
+            refs.remove("UUID")
+        except ValueError:
+            pass
+
         for ref in refs:
             obj.update(self.resolve_reference(ref, root))
     
     def resolve_schema(self, obj, root):
-        """Recursively resolves all references in a schema against
+        """
+        Recursively resolves all references in a schema against
         ``self.resolvers``.
 
         :param obj: The object to recursively resolve.
