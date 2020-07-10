@@ -2,13 +2,9 @@ language: python
 dist: xenial
 python: 3.6
 before_script:
-- git clone https://github.com/uc-cdis/datadictionary && (cd datadictionary && yes | python setup.py install)
+- git clone https://github.com/uc-cdis/datadictionary && cd datadictionary
 script:
 - ./run_tests.sh
-before_deploy:
-- sed -i.bak "s/=get_version()/='$TRAVIS_TAG'/g" setup.py
-- cat setup.py
-- if [ $(python setup.py --version) == '0.0.0' ]; then travis_terminate 1; fi
 deploy:
   provider: pypi
   user: uc-ctds
