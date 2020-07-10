@@ -22,7 +22,7 @@ docs = ["sphinx", "zope.interface"]
 tests = ["coverage", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.interface"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Avro is a serialization and RPC framework."
 name = "avro"
 optional = false
@@ -34,7 +34,7 @@ snappy = ["python-snappy"]
 zstandard = ["zstandard"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Standardized logging tool and format for cdis applications"
 name = "cdislogging"
 optional = false
@@ -42,7 +42,7 @@ python-versions = "*"
 version = "1.0.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Miscellaneous utilities useful for interaction with CDIS systems."
 name = "cdisutils"
 optional = false
@@ -60,8 +60,9 @@ xmltodict = "0.9.2"
 reference = "6439b04690d21212b62b33f85b550001011e7469"
 type = "git"
 url = "https://github.com/NCI-GDC/cdisutils.git"
+
 [[package]]
-category = "dev"
+category = "main"
 description = "Python package for providing Mozilla's CA Bundle."
 name = "certifi"
 optional = false
@@ -69,7 +70,7 @@ python-versions = "*"
 version = "2020.6.20"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Foreign Function Interface for Python calling C code."
 name = "cffi"
 optional = false
@@ -80,7 +81,7 @@ version = "1.14.0"
 pycparser = "*"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Universal encoding detector for Python 2 and 3"
 name = "chardet"
 optional = false
@@ -97,7 +98,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 version = "0.4.3"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "cryptography is a package which provides cryptographic recipes and primitives to Python developers."
 name = "cryptography"
 optional = false
@@ -116,7 +117,7 @@ pep8test = ["flake8", "flake8-import-order", "pep8-naming"]
 test = ["pytest (>=3.6.0,<3.9.0 || >3.9.0,<3.9.1 || >3.9.1,<3.9.2 || >3.9.2)", "pretend", "iso8601", "pytz", "hypothesis (>=1.11.4,<3.79.2 || >3.79.2)"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Data simulator"
 name = "data-simulator"
 optional = false
@@ -134,8 +135,9 @@ setuptools = "36.6.0"
 reference = "299ee2e232364622be3838a92be6cf61652e08bd"
 type = "git"
 url = "https://github.com/uc-cdis/data-simulator.git"
+
 [[package]]
-category = "dev"
+category = "main"
 description = "An implementation of lxml.xmlfile for the standard library"
 name = "et-xmlfile"
 optional = false
@@ -143,7 +145,7 @@ python-versions = "*"
 version = "1.0.1"
 
 [[package]]
-category = "dev"
+category = "main"
 description = ""
 name = "gen3datamodel"
 optional = false
@@ -160,7 +162,7 @@ pytz = ">=2016.4"
 sqlalchemy = ">=1.3,<2.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Gen3 generic data dictionary"
 name = "gen3dictionary"
 optional = false
@@ -173,7 +175,7 @@ dictionaryutils = "*"
 jsonschema = ">=2.5.1"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Simple Python interface for Graphviz"
 name = "graphviz"
 optional = false
@@ -186,7 +188,7 @@ docs = ["sphinx (>=1.7)", "sphinx-rtd-theme"]
 test = ["mock (>=3)", "pytest (>=3.4,<3.10.0 || >3.10.0)", "pytest-mock (>=1.8)", "pytest-cov"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Internationalized Domain Names in Applications (IDNA)"
 name = "idna"
 optional = false
@@ -210,7 +212,7 @@ docs = ["sphinx", "rst.linker"]
 testing = ["packaging", "pep517", "importlib-resources (>=1.3)"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Julian dates from proleptic Gregorian and Julian calendars."
 name = "jdcal"
 optional = false
@@ -218,7 +220,7 @@ python-versions = "*"
 version = "1.4.1"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "An implementation of JSON Schema validation for Python"
 name = "jsonschema"
 optional = false
@@ -237,7 +239,7 @@ python-versions = ">=3.5"
 version = "8.4.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL"
 name = "ndg-httpsclient"
 optional = false
@@ -257,7 +259,7 @@ python-versions = "*"
 version = "1.3.7"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
 name = "openpyxl"
 optional = false
@@ -297,7 +299,7 @@ version = ">=0.12"
 dev = ["pre-commit", "tox"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Text progress bar library for Python."
 name = "progressbar"
 optional = false
@@ -305,7 +307,7 @@ python-versions = "*"
 version = "2.5"
 
 [[package]]
-category = "dev"
+category = "main"
 description = ""
 name = "psqlgraph"
 optional = false
@@ -323,7 +325,7 @@ sqlalchemy = ">=1.3,<2.0"
 xlocal = ">=0.5,<1.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "psycopg2 - Python-PostgreSQL Database Adapter"
 name = "psycopg2-binary"
 optional = false
@@ -339,7 +341,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "1.9.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Python client library and toolkit for Neo4j"
 name = "py2neo"
 optional = false
@@ -347,7 +349,7 @@ python-versions = "*"
 version = "2.0.9"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "ASN.1 types and codecs"
 name = "pyasn1"
 optional = false
@@ -355,7 +357,7 @@ python-versions = "*"
 version = "0.4.8"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "C parser in Python"
 name = "pycparser"
 optional = false
@@ -363,7 +365,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "2.20"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Python wrapper module around the OpenSSL library"
 name = "pyopenssl"
 optional = false
@@ -409,7 +411,7 @@ checkqa-mypy = ["mypy (v0.761)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Extensions to the standard Python datetime module"
 name = "python-dateutil"
 optional = false
@@ -420,7 +422,7 @@ version = "2.8.1"
 six = ">=1.5"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "World timezone definitions, modern and historical"
 name = "pytz"
 optional = false
@@ -428,7 +430,7 @@ python-versions = "*"
 version = "2020.1"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "YAML parser and emitter for Python"
 name = "pyyaml"
 optional = false
@@ -436,7 +438,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 version = "5.3.1"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Python HTTP for Humans."
 name = "requests"
 optional = false
@@ -454,7 +456,7 @@ security = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)"]
 socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7)", "win-inet-pton"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Generate random strings in Python"
 name = "rstr"
 optional = false
@@ -462,7 +464,7 @@ python-versions = "*"
 version = "2.2.6"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Python 2 and 3 compatibility utilities"
 name = "six"
 optional = false
@@ -470,7 +472,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 version = "1.15.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Database Abstraction Library"
 name = "sqlalchemy"
 optional = false
@@ -490,7 +492,7 @@ postgresql_psycopg2cffi = ["psycopg2cffi"]
 pymysql = ["pymysql"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 name = "urllib3"
 optional = false
@@ -511,7 +513,7 @@ python-versions = "*"
 version = "0.2.5"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "execution locals: killing global state (including thread locals)"
 name = "xlocal"
 optional = false
@@ -519,7 +521,7 @@ python-versions = "*"
 version = "0.5"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Makes working with XML feel like you are working with JSON"
 name = "xmltodict"
 optional = false
@@ -540,7 +542,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "4d03bed1adb7d36425882da7c7d3c6bba8f3638be3bc1b667203c229cf4e3a0c"
+content-hash = "a80bf63416a22eccd8a932b94506f9cc415d636f0b634ed5c5875d60c23d2355"
 python-versions = "^3.6"
 
 [metadata.files]
