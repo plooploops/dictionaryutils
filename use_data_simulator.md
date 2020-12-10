@@ -205,7 +205,7 @@ Configure SAS properties.  For the purposes of the guide, you can utilize Read p
 
 > You can Shared Access Signatures (SAS) for getting started / testing purposes. Do note that there's additional [best practices when using SAS](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview?toc=/azure/storage/blobs/toc.json#best-practices-when-using-sas) to keep in mind when using SAS for your scenario.
 
-![Configure SAS properites](./media/storage-explorer-container-sas-2.png)
+![Configure SAS properties](./media/storage-explorer-container-sas-2.png)
 
 Copy the SAS URL:
 
