@@ -180,8 +180,8 @@ You can obtain URL for the schema in a couple of ways with Azure Storage.
 You can use Azure CLI and `bash` to generate a SAS token URL for the **dump.json** that was just uploaded into blob storage.
 
 ```console
-storageAccountName="andysa"
-containerName="gdc"
+storageAccountName="mystorageaccount"
+containerName="myschemas"
 blobName="dump.json"
 end=$(date -u -d "30 minutes" '+%Y-%m-%dT%H:%MZ')
 
