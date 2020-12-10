@@ -3,7 +3,7 @@
 python wrapper and metaschema for datadictionary.
 It can be used to:
 - load a local dictionary to a python object.
-- dump schemas to a file that can be uploaded to s3 as an artifact.
+- dump schemas to a file that can be uploaded to storage as an artifact.
 - load schema file from an url to a python object that can be used by services
 
 ## Test for dictionary validity with Docker
